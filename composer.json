@@ -1,0 +1,24 @@
+{
+    "name": "valerakot/test",
+    "description": "test model",
+    "keywords": ["test", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valera",
+            "email": "Valerakot98@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "valerakot\\test\\": "src/"
+        }
+    }
+}
